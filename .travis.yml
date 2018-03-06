@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: IaScVvhmx2lqCpXbs64wScjPeOq2BiOoQfZbYW//iw172bhuDdMJ1yxEEaGl1Zuyh1kSFAVjdxrsgsmEEDnGyvJ/Qw0K3DaXQIfng2PWVjpLWHbXSGMGF27G7W6uAoe0xdrzuiz5ePcueh6Loy9rD8BOW8LPghP/BaHW5fi0udeD0uRUPkP0RdL/yl5qDfW+SSzI9ScyqZ0MXZEZbcfHwkNJI7WmjZh69VVUzJLYMk/IKXaeIAaEUtYWJZVEGGolB+ErphaG2CirxLSrU5KTkHVNEHAmvc5+vg1t5bi+ITEc9JnoIOxmNGZlaNx0YwKrZHGmcB8PdZ3/QMAwlj8282y8L0BUIxpoEJpc3FNzfNi9FfSSyoOm6/k/HqcroZsYfcGcB2EpSB7gZNMVjc1pmi5zSp3XVayYZ7+PhoxHE4krrFfrYSBxYWGVWtFkrDNtzUe2Icmt6vzV1mHrTM4Hj54f1Hw8cMU1TL/pfhQwn/1yPilxrS8zU+w4YS6e7mBti/pG/lwCXJYKE8ur/+nhUmK3hWd6SV+m5u+0HHQ/IyNsQE0JAqQNO9t8nqmvcZ0bZZxegYC//4lN2zaswwBlIk5NIv7AOkESwu4UOtD/qdRPX7uH31wKXGB8NQ77yBvVTHMaxVkaI6hN+sY0jsZjfhGEju6L/UGVSEiKC0S/JTc=
+  app: glacial-ravine-32365
+  on:
+    repo: jwoleslagle/blog-app-mongoose-test-challenge
